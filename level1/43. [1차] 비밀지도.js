@@ -5,7 +5,7 @@ function solution(n, arr1, arr2) {
 	const secondMap = [];
 
 	const num = 11;
-	const binary = arr1[0].toString(2).toString();
+	const binary = arr1[0].toString(2)
 
 	console.log(binary)
 }
