@@ -1,13 +1,21 @@
 // [1차] 비밀지도
 
 function solution(n, arr1, arr2) {
-	const firstMap = [];
-	const secondMap = [];
+	const result = [];
 
-	const num = 11;
-	const binary = arr1[0].toString(2)
+	for (let i = 0; i < arr1.length; i++) {
+		const str = (arr1[i] | arr2[i]).toString(2);
+		const arr = str.split("");
 
-	console.log(binary)
+		while (arr.length < n) {
+			arr.unshift("0");
+		}
+
+		const dec = arr.map((el) => el === "1" ? "#" : " ").join("");
+		result.push(dec);
+	}
+
+	return result;
 }
 
 
