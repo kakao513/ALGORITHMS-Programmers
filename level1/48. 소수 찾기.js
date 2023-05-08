@@ -9,7 +9,6 @@ function solution(n) {
 		for (let j = 0; j < prime.length + 1; j++) {
 			if (i % prime[j] == 0) { isPrime = false; break; }
 			if (Math.sqrt(i) < prime[j]) break;
-
 		}
 
 		if (isPrime) { prime.push(i); count++; }
