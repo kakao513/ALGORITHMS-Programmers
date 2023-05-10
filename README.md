@@ -1,4 +1,4 @@
-# ALGORITHMS-_Programmers
+# ALGORITHMS-\_Programmers
 
 Level 1
 
@@ -52,6 +52,7 @@ Level 1
 48. 소수 찾기
 49. 명예의 전당 (1)
 50. 소수 만들기
+51. 모의고사
 
 Level 2
 
@@ -79,3 +80,4 @@ Level 2
 22. 기능개발
 23. 의상
 24. 프로세스
+25. 튜플
